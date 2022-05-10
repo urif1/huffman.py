@@ -13,7 +13,6 @@ from typing import Optional, Union
 import os
 import sys
 
-
 LEFT = '0'
 RIGHT = '1'
 

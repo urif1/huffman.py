@@ -173,7 +173,7 @@ def build_huffman_tree(s: str) -> Node:
                 chars[1] = freq.pop()
                 freqs[1] = f
             else:
-                new_freq = min(frequencies, key=lambda k: abs(k-f))
+                new_freq = min(reversed(frequencies), key=lambda k: abs(k-f))
                 chars[1] = freq2node[new_freq].pop()
                 freqs[1] = new_freq
                 if not freq2node[new_freq]:

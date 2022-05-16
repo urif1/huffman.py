@@ -1,7 +1,7 @@
 ################################################################################
 # huffman.py was created by Uri F. as part of a Thermal Physics exercise       #
-# regarding information theory. Thus the code has no purpose of being used as  #
-# a module of any kind, and is only meant to serve said purpose. It also       #
+# regarding information theory. The code has no purpose of being used as a     #
+# module of any kind, and is only meant to serve said purpose. It also         #
 # contains some bad coding style and habits in order to save time.             #
 # The script receives an English language string, generates a Huffman Code for #
 # it and encodes said string.                                                  #
